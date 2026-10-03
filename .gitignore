@@ -1,0 +1,45 @@
+# Flutter, Dart and pub
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+app.*.symbols
+app.*.map.json
+
+# Release outputs and signing material: never publish keys or passwords
+releases/
+*.apk
+*.aab
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+.DS_Store
+
+# Python tooling
+__pycache__/
+*.pyc
+
+*.log

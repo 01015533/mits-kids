@@ -1,0 +1,6 @@
+{
+  "checked_utc": "2026-09-17T16:05:18.581653+00:00",
+  "packages_checked": 112,
+  "findings": [],
+  "scope": "Resolved Android release Maven artifacts only. Excludes device OS/WebView and unknown vulnerabilities."
+}

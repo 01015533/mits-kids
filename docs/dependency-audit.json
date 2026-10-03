@@ -1,0 +1,5 @@
+{
+  "hosted_packages_checked": 99,
+  "findings": [],
+  "scope": "Dart packages only. Android Maven dependencies, OS/WebView and unknown vulnerabilities are not covered."
+}

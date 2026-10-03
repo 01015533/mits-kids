@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Gradle's release build type sets isDebuggable=false. -->
+    <application android:testOnly="false">
+        <!-- Profiling shell hooks are unnecessary in the sideloaded release. -->
+        <receiver android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            tools:node="remove" />
+    </application>
+</manifest>
