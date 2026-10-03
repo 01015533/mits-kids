@@ -2,6 +2,11 @@
 
 A parent-curated, offline YouTube player for Android tablets, built with Flutter.
 
+<p align="center">
+  <img src="docs/media/offline-library.png" width="800"
+       alt="The child's Offline tab: five saved videos shown as picture cards">
+</p>
+
 A parent browses YouTube behind a PIN, approves individual videos and saves them
 to the tablet. Children see only that approved offline library, with no live
 YouTube browsing, and watch it in a player designed to resist stray taps.
@@ -11,6 +16,50 @@ YouTube browsing, and watch it in a player designed to resist stray taps.
 > extractor, so availability can change at any time. Private, paid,
 > age-restricted, live and encrypted content is unsupported. Only save videos
 > you are permitted to download.
+
+## See it in action
+
+Recorded on an Android 15 tablet emulator, using generated demo videos.
+
+**Autoplay.** When a video ends, the next one in Offline starts by itself, and
+the touch lock stays on throughout.
+
+<img src="docs/media/autoplay.gif" width="800"
+     alt="A locked player finishes Magic Circles and starts Ocean Waves Lullaby automatically">
+
+**Touch lock.** Tap the lock and the video keeps playing while taps and swipes
+are ignored. Hold the lock for two seconds to unlock; the inset magnifies it.
+
+<img src="docs/media/touch-lock.gif" width="800"
+     alt="The player locks, ignores a tap and a swipe, then unlocks after a two-second hold">
+
+**Scene previews.** Dragging the timeline shows frames from the saved file, and
+releasing jumps there. The capture is cropped around the timeline.
+
+<img src="docs/media/scene-preview.gif" width="720"
+     alt="Dragging the timeline shows preview frames at 0:10 and 0:15, then playback continues from 0:15">
+
+**Playback settings.** Repeat is remembered for each video; autoplay is one
+choice for all of them.
+
+<img src="docs/media/playback-settings.png" width="800"
+     alt="Playback settings with Repeat this video off and Play next video automatically on">
+
+**Parent tools.** Browse, which shows YouTube's own site and is not pictured
+here, and Parent are behind a PIN.
+
+<table>
+  <tr>
+    <td><img src="docs/media/parent-pin.png" width="260" alt="Parent access asks for the parent PIN"></td>
+    <td><img src="docs/media/parent-settings.png" width="260" alt="Parent settings: backups, PIN change, playback and content rules"></td>
+    <td><img src="docs/media/parent-library.png" width="260" alt="Manage saved videos: slots, storage and a delete button for each video"></td>
+  </tr>
+  <tr>
+    <td>Parent access needs the 6–12 digit PIN.</td>
+    <td>Backups, PIN change, playback options and content rules.</td>
+    <td>Saved videos, slots and free storage, with deliberate deletion.</td>
+  </tr>
+</table>
 
 ## Features
 
